@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Page</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css"> <!-- Link to custom styles -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="scripts.js"></script> <!-- Link to custom scripts -->
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light blur-background fixed-top">
+        <a class="navbar-brand" href="#">
+            <img src="https://res.cloudinary.com/decpgg8fe/image/upload/v1732943565/All_India_Council_for_Technical_Education_logo_ahldje.png" />
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#institution.html">Dashboard</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#applications">Applications</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link btn btn-danger text-white btn-sm logout" href="logout.php">Logout</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container">
+        <header>
+            <h1>Welcome, Admin</h1>
+        </header>
+        <main>
+            <section>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>S.No</th>
+                            <th>List of Colleges Applied</th>
+                            <th>Evaluator Assigned by AICTE</th>
+                            <th>Approval</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>CRR</td>
+                            <td>Nanorama</td>
+                            <td>Yes</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>RCE</td>
+                            <td>-</td>
+                            <td>No</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Example College</td>
+                            <td>-</td>
+                            <td>-</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+            <aside>
+                <div class="stats">
+                    <p>Total Institutions: <span>5</span></p>
+                    <p>Total Evaluators: <span>9</span></p>
+                </div>
+            </aside>
+        </main>
+    </div>
+</body>
+
+</html>
