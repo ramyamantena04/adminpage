@@ -1,0 +1,101 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('https://res.cloudinary.com/dg3xeapje/image/upload/v1733565014/5630939_u7lq54.jpg');
+    /* Replace with your background image */
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+.blur-background {
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+img {
+    width: 50px;
+}
+
+.container {
+    padding: 20px;
+}
+
+/* Header Styles */
+header {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin-top: 60px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2rem;
+    color: #333;
+
+}
+
+/* Table Styles */
+table {
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+table thead {
+    background-color: #007BFF;
+    color: white;
+}
+
+table thead th {
+    padding: 10px;
+    text-align: center;
+}
+
+table tbody tr {
+    border-bottom: 1px solid #ddd;
+}
+
+table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+table tbody tr:hover {
+    background-color: #f1f1f1;
+}
+
+table tbody td {
+    padding: 8px;
+    text-align: center;
+}
+
+/* Stats Section Styles */
+aside {
+    margin: 20px auto;
+    text-align: center;
+    padding: 15px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    width: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.stats p {
+    margin: 5px 0;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.stats span {
+    color: #007BFF;
+    font-weight: bold;
+}
